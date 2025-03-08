@@ -1,9 +1,47 @@
+# Site Settings
+title: "My Portfolio"               # Website title
+description: "Projects and writings by John Doe."  # A short subtitle or tagline
+locale: "en-US"
+
+# URL settings
+url: "https://johndoe.github.io"    # Your Pages URL (replace with your username)
+baseurl: ""                         # Base URL, typically "" for user site
+
+# Theme and Design
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"   # Use Minimal Mistakes theme (remote)
+minimal_mistakes_skin: "dark"       # Choose the "dark" skin for dark mode styling ("default" is light)
+plugins:
+  - jekyll-include-cache            # Required by Minimal Mistakes for caching includes
+
+# Author and Social Profile (for sidebar or footer)
 author:
-  name: "Your Name"
+  name: "John Doe"
+  avatar: "/assets/images/profile.jpg"   # path to profile image (if any)
+  bio: "Software Developer and Writer"
+  location: "Raleigh, NC"
+  # Social links displayed as icons
   links:
+    - label: "Email"
+      icon: "fas fa-envelope"            # Font Awesome icon (envelope)
+      url: "mailto:john.doe@example.com"
     - label: "GitHub"
       icon: "fab fa-github"
-      url: "https://github.com/yourusername"
+      url: "https://github.com/johndoe"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/yourprofile"
+      url: "https://www.linkedin.com/in/johndoe"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/johndoe"
+
+# Defaults for posts (if using blog posts)
+defaults:
+  - scope:
+      path: "_posts"       # all files in the posts directory
+    values:
+      layout: "single"     # use the "single" layout for blog posts
+      author: "John Doe"
+      read_time: true
+      comments: false
+
+# (Optional) Other configurations like Google Analytics, etc., can go here.
