@@ -1,25 +1,22 @@
 ---
-layout: default
-title: "Kimia Fazeli"
+layout: splash
+permalink: /
+title: "John Doe"
+subtitle: "Software Developer & Writer"
+intro: 
+  - text: > 
+      Welcome to my portfolio website. I am a software engineer with a passion for writing and open-source. 
+      Here you'll find my projects, blog posts, and ways to get in touch.
+  - button_text: "View My Projects"
+    button_url: "/projects/"
+    button_icon: "fas fa-folder-open"
 ---
 
-# Welcome to My Website
+# Hello, I'm John! 
 
-## About
-I am a Ph.D. candidate in Computer Science at NC State University, specializing in AI-driven educational technology and data analysis. My research involves intelligent tutoring systems, machine learning, and NLP applications in education.
+I build web and mobile applications, and occasionally write about technology and life. Please feel free to explore my work and articles. 
 
-## Publications
-- [Using Internet of Things and Biosensors Technology for Health Applications](https://ietresearch.onlinelibrary.wiley.com/doi/abs/10.1049/iet-wss.2017.0129)
-- [Ethics in Electronically Sellers & Attracting Electronically Customers](https://ethicsjournal.ir/browse.php?a_id=538&sid=1&slc_lang=en)
-
-## Projects
-- **Intelligent Tutoring System for Logic Education**
-- **Server-side API for AI-Powered Calorie Tracking**
-- **Flashcard Generator with GPT-4 for Automated Learning**
-
-## Teaching
-Teaching Assistant for **Operating Systems, Data Structures, and Algorithms** at NC State University.
-
-## Contact
-📧 [kimiafazeli90@gmail.com](mailto:kimiafazeli90@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/kimia-fazeli-7882b1225/)
+<div style="text-align: center; margin: 2rem 0;">
+  <a href="/about/" class="btn btn--primary">Learn More About Me</a>
+  <a href="/posts/" class="btn">Read My Blog</a>
+</div>
