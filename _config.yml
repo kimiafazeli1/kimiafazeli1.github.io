@@ -1,47 +1,38 @@
-# Site Settings
-title: "My Portfolio"               # Website title
-description: "Projects and writings by John Doe."  # A short subtitle or tagline
-locale: "en-US"
+title: "My Portfolio"
+description: "Personal portfolio website showcasing projects and work."
+baseurl: "" # Leave empty unless the site is in a subdirectory
+url: "https://kimiafazeli1.github.io" # Change this to your GitHub Pages URL
 
-# URL settings
-url: "https://johndoe.github.io"    # Your Pages URL (replace with your username)
-baseurl: ""                         # Base URL, typically "" for user site
-
-# Theme and Design
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"   # Use Minimal Mistakes theme (remote)
-minimal_mistakes_skin: "dark"       # Choose the "dark" skin for dark mode styling ("default" is light)
+# Theme and Plugins
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
-  - jekyll-include-cache            # Required by Minimal Mistakes for caching includes
+  - jekyll-include-cache
 
-# Author and Social Profile (for sidebar or footer)
+# Navigation
+navigation:
+  - title: "About"
+    url: "/about/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Teaching"
+    url: "/teaching/"
+  - title: "Contact"
+    url: "/contact/"
+
+# SEO and Socials
 author:
-  name: "John Doe"
-  avatar: "/assets/images/profile.jpg"   # path to profile image (if any)
-  bio: "Software Developer and Writer"
-  location: "Raleigh, NC"
-  # Social links displayed as icons
-  links:
-    - label: "Email"
-      icon: "fas fa-envelope"            # Font Awesome icon (envelope)
-      url: "mailto:john.doe@example.com"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/johndoe"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/johndoe"
-    - label: "Twitter"
-      icon: "fab fa-twitter"
-      url: "https://twitter.com/johndoe"
+  name: "Kimia Fazeli"
+  email: "your-email@example.com"
+  twitter: "your-twitter"
+  github: "kimiafazeli1"
 
-# Defaults for posts (if using blog posts)
-defaults:
-  - scope:
-      path: "_posts"       # all files in the posts directory
-    values:
-      layout: "single"     # use the "single" layout for blog posts
-      author: "John Doe"
-      read_time: true
-      comments: false
+# Permalinks
+permalink: pretty
 
-# (Optional) Other configurations like Google Analytics, etc., can go here.
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: "/blog/page:num/"
+
