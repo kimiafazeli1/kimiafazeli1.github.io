@@ -4,7 +4,7 @@ baseurl: ""
 url: "https://kimiafazeli.github.io"
 
 # Use a GitHub-supported Jekyll theme
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
 
 # OR use an advanced theme (uncomment the next line and remove the `theme` line above)
 # remote_theme: mmistakes/minimal-mistakes
