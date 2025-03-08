@@ -1,0 +1,31 @@
+title: "Kimia Fazeli"
+description: "Ph.D. student in Computer Science | NC State University"
+baseurl: ""
+url: "https://kimiafazeli.github.io"
+
+# Use a GitHub-supported Jekyll theme
+theme: jekyll-theme-minimal
+
+# OR use an advanced theme (uncomment the next line and remove the `theme` line above)
+# remote_theme: mmistakes/minimal-mistakes
+
+# Navigation links
+nav:
+  - title: "About"
+    url: "/about"
+  - title: "Publications"
+    url: "/publications"
+  - title: "Projects"
+    url: "/projects"
+  - title: "Teaching"
+    url: "/teaching"
+  - title: "Contact"
+    url: "/contact"
+
+# Social links
+social:
+  email: "kimiafazeli90@gmail.com"
+  linkedin: "kimia-fazeli-7882b1225"
+
+# Enable Google Analytics (optional)
+# google_analytics: UA-XXXXXXXX-X
