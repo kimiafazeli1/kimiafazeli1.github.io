@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Kimia Fazeli</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        .project-card {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .project-card h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .project-card ul {
+            list-style-position: inside;
+            margin: 15px 0;
+        }
+
+        .project-card li {
+            margin-bottom: 8px;
+        }
+
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .tech-tag {
+            background-color: #e1f5fe;
+            color: #0288d1;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Kimia Fazeli</h1>
+            <p class="subtitle">Ph.D. Student in Computer Science</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="publications.html">Publications</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="main-content">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 30px;">Research & Development Projects</h2>
+
+            <div class="project-card">
+                <h3>Deep Thought Intelligent Tutoring System (NSF-funded)</h3>
+                <p>Development and data analysis for a web-based logic tutor, driving data-driven strategies for system
+                    optimization.</p>
+                <ul>
+                    <li>Discovered key patterns and trends by analyzing 20 years of action log datasets</li>
+                    <li>Developed the user interface for an intelligent tutoring system for deductive logic problems
+                    </li>
+                    <li>Conducted classroom research to collect data on student interactions and learning outcomes</li>
+                    <li>Applied data analysis and machine learning techniques to enhance system functionality</li>
+                </ul>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Machine Learning</span>
+                    <span class="tech-tag">Data Analysis</span>
+                    <span class="tech-tag">User Interface Design</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Calorie Tracking Application API</h3>
+                <p>Designed and implemented backend API for a comprehensive health and fitness tracking application.</p>
+                <ul>
+                    <li>Built API for user authentication, calorie tracking, and personalized diet/workout plans</li>
+                    <li>Integrated ChatGPT-4 for generating tailored plans based on user profiles</li>
+                    <li>Collaborated with front-end developers to ensure smooth client-server data flow</li>
+                    <li>Implemented security protocols to protect user data</li>
+                </ul>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">API Development</span>
+                    <span class="tech-tag">ChatGPT Integration</span>
+                    <span class="tech-tag">Database Design</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Flashcard Generator with ChatGPT-4</h3>
+                <p>Enhanced the Anki flashcard platform by automating flashcard generation from lecture materials.</p>
+                <ul>
+                    <li>Implemented API integration for generating flashcards using OpenAI's ChatGPT-4</li>
+                    <li>Developed test suites for API integration</li>
+                    <li>Implemented automated workflows for consistent code formatting and testing</li>
+                    <li>Created comprehensive documentation including setup guides and usage instructions</li>
+                </ul>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">OpenAI API</span>
+                    <span class="tech-tag">Anki Platform</span>
+                    <span class="tech-tag">Automated Testing</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Kimia Fazeli. All rights reserved.</p>
+            <div class="social-links">
+                <a href="mailto:kimiafazeli90@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/kimia-fazeli-7882b1225/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/YourGitHubUsername" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
